@@ -1,24 +1,24 @@
-PASSWORD_APP
+**PASSWORD_APP**
 
-Author
+**Author**
 Marion Vutagwa
 
-Description
+**Description**
 An application that helps to store keep password. This is to enable the people who have many accounts with different password to avoid the tassle of having to remember them.
 
-Setup of Application
+**Setup of Application**
 You can clone the project from https://github.com/marionvutagwa/password_locker
 
-Known Bugs
+**Known Bugs**
 No known bugs
 
-Technologies Used
+**Technologies Used**
 python
 
-Support and contact details
+**Support and contact details**
 for further clarification please email me at marionvutagwa8@gmail.com
 
-License
+**License**
 Copyright <2020> <Marion vutagwa>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
