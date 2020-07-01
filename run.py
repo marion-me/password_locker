@@ -22,7 +22,6 @@ def generate_password():
     generate_password = Credentials.generate_password()
     return generate_password
 
-
 def create_credential(account,username,account_password):
     """
     Function that create a new credential
@@ -94,7 +93,7 @@ def main():
                         print ("Here  are the list of all your credential")
                         print('\n')
 
-                        for credential in display_credential():
+                        for Credential in display_credential():
                             print(f"credential {user_name} {account}   ...{password} ")
                             print('\n') 
                   else:

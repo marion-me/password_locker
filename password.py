@@ -15,13 +15,13 @@ class TestUser(unittest.TestCase):
         """
         Set up method to run before each test cases.
         """
-        self.new_user = User("sumey","Instagram","1234")
+        self.new_user = User("mia","Instagram","1234")
 
     def test_init(self):
         """
         test_init test case to test if the object is initialized properly.
         """
-        self.assertEqual(self.new_user.user_name,"sumey")
+        self.assertEqual(self.new_user.user_name,"mia")
         self.assertEqual(self.new_user.account,"Instagram")
         self.assertEqual(self.new_user.password,"1234")
 
@@ -47,14 +47,14 @@ class TestCredential(unittest.TestCase):
         """
         Set up method to run before each test cases.
         """
-        self.new_credential = Credentials("Instagram","sumeya-abdille","mase")
+        self.new_credential = Credentials("Instagram","maria_ mia","mase")
 
     def test_init(self):
         """
         test_init test case to test if the object is initialized properly.
         """
         self.assertEqual(self.new_credential.account,"Instagram")
-        self.assertEqual(self.new_credential.username,"sumeya-abdille")
+        self.assertEqual(self.new_credential.username,"maria_ mia")
         self.assertEqual(self.new_credential.account_password,"mase")
     
     def test_save_credential(self):
